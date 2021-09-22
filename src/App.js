@@ -82,7 +82,7 @@ function App() {
   return (
     <div className={`main-container  ${getWeatherAmbience()}`}>
       <div className="brand-wrapper">
-        <img className="brand-logo" src="/images/logo.png" />
+        <img alt='brand-logo' className="brand-logo" src="/images/logo.png" />
         <h1 className="brand">Quick-Weather</h1>
       </div>
       <input
